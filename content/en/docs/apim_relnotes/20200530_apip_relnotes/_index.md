@@ -6,7 +6,6 @@ weight: 70
 date: 2020-03-11T00:00:00.000Z
 description: Learn about the new features and enhancements in this update of API Portal.
 ---
-
 ## Summary
 
 API Portal provides an API consumer-facing interface that you can customize to match your corporate brand. API Portal is a layered product linked to API Manager, and requires both API Manager and API Gateway. For more information, see the API Gateway and API Manager documentation.
@@ -51,21 +50,21 @@ To stay current and align our offerings with customer demand and best practices,
 
 ## Fixed issues
 
-This version of API Portal includes the fixes from all 7.5.5, 7.6.2, and 7.7 service packs or updates released prior to this version. For details of all the service pack fixes included, see the corresponding _SP Readme_ attached to each service pack on [Axway Support](https://support.axway.com).
+This version of API Portal includes the fixes from all 7.5.5, 7.6.2, and 7.7 service packs or updates released prior to this version. For details of all the service pack fixes included, see the corresponding *SP Readme* attached to each service pack on [Axway Support](https://support.axway.com).
 
 ### Fixed security vulnerabilities
 
 <!-- TODO copy and paste the list from confluence -->
 
-| Internal ID | Case ID | Description                                                                                                                                                                                     |
-| ----------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IAP-XXXX    |         | **Issue:** Issue description. **Resolution:** Resolution description.                                                          |
+| Internal ID | Case ID | Description                                                           |
+| ----------- | ------- | --------------------------------------------------------------------- |
+| IAP-XXXX    |         | **Issue:** Issue description. **Resolution:** Resolution description. |
 
 ### Other fixed issues
 
-| Internal ID | Case ID  | Description                                                                                                                                                                                                                                      |
-| ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| IAP-XXXX    |         | **Issue:** Issue description. **Resolution:** Resolution description.
+| Internal ID | Case ID | Description                                                           |
+| ----------- | ------- | --------------------------------------------------------------------- |
+| IAP-XXXX    |         | **Issue:** Issue description. **Resolution:** Resolution description. |
 
 ## Known issues
 
@@ -85,12 +84,6 @@ Changing the API Portal language to Arabic (or any other right to left language)
 6. Click **Save** and click **Close** to close the template style.
 
 Related Issue: IAP-308
-
-### Sign in button is shown after user logs in to API Portal
-
-After user logs in to API Portal, the **Sign in** button is shown in the banner section instead of the **Explore** button.
-
-Related Issue: IAP-3037
 
 ## Documentation
 
