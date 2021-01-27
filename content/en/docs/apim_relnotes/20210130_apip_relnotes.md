@@ -19,36 +19,7 @@ API Portal is available as a software installation or a virtualized deployment i
 
 ## New features and enhancements
 
-### Docker container improvements
-
-This update includes a sample docker-compose.yml script, which once configured for your environment, enables an easier start up of API Portal, MariaDB, and Redis containers. Now, you can build your own API Portal docker container using the same build scripts that Axway use internally.
-
-### Simplified language file upload
-
-Previously, to upload language files you had to connect to the API Portal server, download the English translation files, translate them, rename them correctly, and upload them to the correct directory on the server. To simplify this process, we have added an upload capability to the Joomla! Admin Interface (JAI). For more information, see [Add a translated UI string file](/docs/apim_administration/apiportal_admin/localize_language/#add-a-translated-ui-string-file).
-
-### Security improvements
-
-* Improved readability of all logs redirected to stdout.
-* Added support for the anti-virus service (ClamAV) running on a remote machine. Previously, it had to be running on the same server as API Portal.
-
-### UI modernization improvements
-
-* New two-column layout available for API details view.
-
-  ![Two-column layout](/Images/docbook/images/release_notes/dual-pane-layout-jan21.png)
-
-* Swagger UI layout configuration available from [API Catalog settings](/docs/apim_administration/apiportal_admin/customize_apicatalog_overview/).
-
-  ![API Catalog settings](/Images/docbook/images/release_notes/dual-pane-layout-config-jan21.png)
-
-* New configuration to hide the **Try-it** button for APIs with specific tags, for example, "Coming soon". Wildcards such as `?` and `*` are supported.
-
-  ![Hide Try-it](/Images/docbook/images/release_notes/hide-try-it-for-specific-tags.png)
-
-* User account fields (Name, Login name, Password, Email) are now read-only in JAI, as this data is managed from API Manager or an external IDP.
-* Custom properties are now displayed in Public mode.
-* A consistent loading icon (spinner) is now rendered across the API details, Applications, and Usage tabs.
+No new features were added in this update.
 
 ## Limitations of this update
 
@@ -90,6 +61,8 @@ This version of API Portal includes:
 | IAP-3757        | 1212990     |                    | **Issue**: Sensitive directories accessible through web. **Resolution**: htaccess file modification done to block sensitive directory access.                                                                                                                                                                                                                                                                      |
 | IAP-3745        | 1212603     |                    | **Issue**: XSS was possible on API Details page while creating an application. **Resolution**: The XSS is remediated on API Details page for `apiId` parameter.                                                                                                                                                                                                                                                    |
 | IAP-3846        |             |                    | **Issue**: Private key file is publicly available via URL. **Resolution**: `htaccess` modification done to block sensitive data access. See the [API Portal private key accessible through web](https://support.axway.com/en/articles/article-details/id/181367) article to learn how to manually apply the fix.                                                                                                   |
+| IAP-3923        |             |                    | **Issue**: XSS during updating application was possible attacking the email field.  **Resolution**: Email field is properly escaped now.                                                                                                                                                                                                                                                                           |
+
 
 ### Other fixed issues
 
@@ -101,6 +74,7 @@ This version of API Portal includes:
 | IAP-3889        | 1221136     | **Issue**: The documentation describing secure PHP configuration have mistakes and not valid options. **Resolution**: The documentation has been updated following best security practices applicable to API Portal.                                                             |
 | IAP-3911        |             | **Issue**: Apache virtual host configuration was not correctly set when installing API Portal using plain HTTP and as a result API Portal cannot be loaded. **Resolution**: Now Apache virtual host configuration is correct and API Portal is able to install using plain HTTP. |
 | IAP-3875        | 1203778     | **Issue**: IPs are logged hashed when session hijack attempt happens. **Resolution**: IPs will be logged without being hashed when session hijack attempt happens.                                                                                                               |
+| IAP-3891        | 1220975     | **Issue**: API Catalog and Applications pages failed to open when one of the managers is down. **Resolution**: Proper error handling was added and the user was logout and redirected to login with proper messages the on failing pages.                                        |
 
 ## Known issues
 
