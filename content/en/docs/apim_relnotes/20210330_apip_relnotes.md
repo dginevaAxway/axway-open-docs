@@ -80,7 +80,16 @@ This version of API Portal includes:
 
 ### Other fixed issues
 
-table of other issues
+| Internal ID | Case ID | Description                                                                                                                                                                                                                                                                                   |
+| ----------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| IAP-2927    |         | Issue: Resolution:                                                                                                                                                                                                                                                                            |
+| IAP-3858    |         | **Issue**: User doesn't get redirected to the "redirect after login" after accepting privacy policy. **Resolution**: User gets redirected to the "redirect after login" after accepting privacy policy.                                                                                       |
+| IAP-3940    | 1228612 | **Issue**: API description is not shown on API Catalog. **Resolution**: API summary is shown as description by default.                                                                                                                                                                       |
+| IAP-3949    | 1229842 | **Issue**: When hide tags from API Catalog page they are not hidden in create / edit application pages. **Resolution**: New configuration is added for applications which allows to hide tags from applications pages.                                                                        |
+| IAP-4000    |         | **Issue**: While creating application from an API Details page we see a list of all available organisations, to some of which the API is not connected. **Resolution**: Now when an application is being created from an API we see a list of the organizations to which the API is assigned. |
+| IAP-4002    | 1231371 | **Issue**: The documentation was not clear on what resources are recommended for use for Docker artifacts released before November. **Resolution**: All documentation sections has been updated to point latest docker artifacts recommended for production.                                  |
+| IAP-4033    |         | **Issue**: Redirect after login option in JAI is not working when multiple languages are installed. **Resolution**: Redirect after login option in JAI works for multiple-languages API Portal instances.                                                                                     |
+| IAP-4055    | 1232846 | **Issue**: PHP CLI version is checked from the context of the user who is running the installation while it's used in the context of the Apache user. **Resolution**: Run updatescript.php by the user who is doing the installation.                                                         |
 
 ## Known issues
 
