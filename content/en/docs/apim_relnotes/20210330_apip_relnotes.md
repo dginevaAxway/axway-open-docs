@@ -73,6 +73,10 @@ This version of API Portal includes:
 
 ### Fixed security vulnerabilities
 
+| Internal ID | Case ID | CVE Identifier | Description                                                                                                                      |
+| ----------- | ------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| IAP-4003    |         |                | **Issue**: Swagger IO is using vulnerable version of marked library. **Resolution**: Marked library is upgraded to safe version. |
+| IAP-3842    |         |                | **Issue**: API Portal is using vulnerable version of Axios library. **Resolution**: Axios library is upgraded to safe version.   |
 
 ### Other fixed issues
 
