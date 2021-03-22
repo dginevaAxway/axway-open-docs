@@ -50,7 +50,7 @@ This update has the following limitations:
 
 <!-- It is important, especially when upgrading from an earlier version, to be aware of the following changes in the behavior or operation of the product in this update.. -->
 
-API portal is no longer supporting Internet Explorer and now start support Edge. 
+With this release API Portal is no longer supporting Internet Explorer and introduce Edge support. 
 
 ## Deprecated features
 
@@ -89,7 +89,7 @@ This version of API Portal includes:
 | IAP-4000    |         | **Issue**: While creating application from an API Details page we see a list of all available organizations, to some of which the API is not connected. **Resolution**: Now when an application is being created from an API we see a list of the organizations to which the API is assigned. |
 | IAP-4002    | 1231371 | **Issue**: The documentation was not clear on what resources are recommended for use for Docker artifacts released before November. **Resolution**: All documentation sections has been updated to point latest docker artifacts recommended for production.                                  |
 | IAP-4033    |         | **Issue**: Redirect after login option in JAI is not working when multiple languages are installed. **Resolution**: Redirect after login option in JAI works for multiple-languages API Portal instances.                                                                                     |
-| IAP-4055    | 1232846 | **Issue**: PHP CLI version is checked from the context of the user who is running the installation while it's used in the context of the Apache user. **Resolution**: Run updatescript.php by the user who is doing the installation.                                                         |
+| IAP-4055    | 1232846 | **Issue**: PHP CLI version is checked from the context of the user who is running the installation while it's used in the context of the Apache user. **Resolution**: Run `updatescript.php` by the user who is doing the installation.                                                         |
 
 ## Known issues
 
