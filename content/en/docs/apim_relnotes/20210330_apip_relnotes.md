@@ -50,7 +50,7 @@ This update has the following limitations:
 
 <!-- It is important, especially when upgrading from an earlier version, to be aware of the following changes in the behavior or operation of the product in this update.. -->
 
-API portal is no longer supporting Internet Exploger and now start support Edge. 
+API portal is no longer supporting Internet Explorer and now start support Edge. 
 
 ## Deprecated features
 
