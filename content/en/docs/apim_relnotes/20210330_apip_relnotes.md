@@ -75,6 +75,7 @@ This version of API Portal includes:
 | ----------- | ------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | IAP-4003    |         |                | **Issue**: Swagger IO is using vulnerable version of marked library. **Resolution**: Marked library is upgraded to a safer version. |
 | IAP-3842    |         |                | **Issue**: API Portal is using vulnerable version of Axios library. **Resolution**: Axios library is upgraded to a safer version.   |
+| IAP-4077    |         |                | **Issue**: PHP version in Ready Made Docker image was 7.4.14, which was vulnerable when using SOAP extension for connecting to a SOAP server.  **Resolution**: PHP version in Ready Made Docker image was upgraded to 7.4.16.    |
 
 ### Other fixed issues
 
