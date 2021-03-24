@@ -29,7 +29,7 @@ You can also watch [How to use a configuration file for simpler installations (u
 
 ### Further Enhancements
 
-* New module allowing easy integration with Intercom to enable chat support on API Portal.
+* New module allowing easy integration with Intercom to enable chat support on API Portal. See more on [Chat Support](/docs/apim_administration/apiportal_admin/customize_page_content/#chat-support).
 * Microsoft Edge browser is now supported.
 * New Axway icons, color palettes, and typography incorporated.
 * The name of the relevant API Manager instance is now displayed on the **API catalog** (on Grid and List view layouts) and in the **API details** page.
