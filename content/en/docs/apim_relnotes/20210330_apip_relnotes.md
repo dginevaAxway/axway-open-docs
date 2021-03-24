@@ -33,7 +33,7 @@ You can also watch [How to use a configuration file for simpler installations (u
 * Microsoft Edge browser is now supported.
 * New Axway icons, color palettes, and typography incorporated.
 * The name of the relevant API Manager instance is now displayed on the **API catalog** (on Grid and List view layouts) and in the **API details** page.
-* A new notification has been added to alert the organization administrator on login to review applications that are pending approval. See more on [Show notifications for applications that are waiting for approval](/docs/apim_administration/apiportal_admin/customize_page_content/#show-notifications-for-applications-that-are-waiting-for-approval)[](/docs/apim_administration/apiportal_admin/customize_page_content/#show-notifications-for-applications-that-are-waiting-for-approval).
+* A new notification has been added to alert the organization administrator on login to review applications that are pending approval. See more on [Show notifications for applications that are waiting for approval](/docs/apim_administration/apiportal_admin/customize_page_content/#show-notifications-for-applications-that-are-waiting-for-approval).
 * Labels and values for custom properties are now translatable. See more on [Add a translated UI string file](/docs/apim_administration/apiportal_admin/localize_language/#add-a-translated-ui-string-file).
 
 ## Limitations of this update
